@@ -7,7 +7,7 @@ public class BestTimeToBuy {
     public int maxProfit(int[] prices) {
         if (prices.length == 1) return 0;
 
-        int profit = 0; 
+        int profit = 0;
         int left = 0;
         for (int right = 1; right < prices.length; right++) {
             if (prices[right] > prices[left]) {
