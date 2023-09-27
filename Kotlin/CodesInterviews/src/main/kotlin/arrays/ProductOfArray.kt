@@ -7,7 +7,7 @@ class ProductOfArray {
         val prefixProduct = IntArray(n)
         prefixProduct[0] = 1
 
-        for (i in 1...<n) {
+        for (i in 1..<n) {
             prefixProduct[i] = prefixProduct[i - 1] * nums[i - 1]
         }
 
