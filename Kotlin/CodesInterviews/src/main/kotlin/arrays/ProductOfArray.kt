@@ -24,5 +24,7 @@ class ProductOfArray {
 fun main() {
     val product = ProductOfArray()
     val nums = intArrayOf(1, 2, 3, 4)
+    val nums2 = intArrayOf(11, 13, 12, 34)
     print(product.productExceptSelf(nums).contentToString())
+    print(product.productExceptSelf(nums2).contentToString())
 }
