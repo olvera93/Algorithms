@@ -6,7 +6,7 @@ class BoatsToSavePeople {
         val sortedPeople = people.sorted()
         var smallest = 0
         var biggest = sortedPeople.size - 1
-        
+
         var boats = 0
 
         while (biggest >= smallest) {
