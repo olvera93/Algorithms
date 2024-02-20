@@ -18,7 +18,6 @@ class MoveZeroes {
         for (i in zeroIndex..<n ) {
             nums[i] = 0
         }
-
         println(nums.contentToString())
     }
 
